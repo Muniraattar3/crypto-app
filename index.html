@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Crypto Tracker</h1>
+
+  <div class="controls">
+    <input type="text" id="search-input" placeholder="Search by name or symbol">
+    <button id="search-btn">Search</button>
+    <button id="sort-marketcap-btn">Sort by Market Cap</button>
+    <button id="sort-percentage-btn">Sort by % Change</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Symbol</th>
+        <th>Current Price</th>
+        <th>Total Volume</th>
+        <th>Market Cap</th>
+        <th>% Change (24h)</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Rows will be inserted here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
